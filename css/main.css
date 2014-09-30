@@ -70,17 +70,18 @@ header {
     color: #0074D9;
 }
 @media only screen and (min-width: 20em) {
-            .nav {
-                text-align: center;
+        .nav {
+            text-align: center;
             }
-            .nav li {
-                display: inline-block;
+        .nav li {
+            display: inline-block;
     }
+}
     @media only screen and (min-width: 40em) {
-                .title1 {
-                    float: left;
-                }
-                .nav {
-                    float: left;
-                }
+        .title1 {
+            float: left;
+        }
+        .nav {
+            float: left;
+        }
     }
