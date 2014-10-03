@@ -5,46 +5,63 @@
   <title>Jupiter</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <link href="css/main.css" rel="stylesheet">
+  <link href="css/grid.css" rel="stylesheet">
+  <link href="css/typography.css" rel="stylesheet">
 </head>
 <body>
 
-<header class="grey">
+  <header class="grey">
 
-    <h1 class="title1">Jupiter</h1>
+      <h1 class="title1"><a href="index.html">Jupiter</a></h1>
 
-    <nav class="nav">
-      <ul>
-        <li><a href="planet.html">Planet</a></li>
-        <li><a href="#">Moons</a></li>
-        <li><a href="#">Exploration</a></li>
-      </ul>
-    </nav>
+      <nav class="nav">
+        <ul>
+          <li><a href="planet.html">Planet</a></li>
+          <li><a href="moons.html">Moons</a></li>
+          <li><a href="exploration.html">Exploration</a></li>
+        </ul>
+      </nav>
 
-</header>
+  </header>
+<div class="grid">
+  <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-3">
+      <img src="images/jupiter_by_cassini-huygens.jpg" alt="image of jupiter">
+  </div>
+    <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2">
+      <h1>Jupiter</h1>
+      <p>Jupiter is the fifth planet from the Sun and the largest planet in the Solar System. It is a gas giant with mass one-thousandth of that of the Sun but is two and a half times the mass of all the other planets in the Solar System combined. Jupiter is classified as a gas giant along with Saturn, Uranus and Neptune. Together, these four planets are sometimes referred to as the Jovian or outer planets.</p>
+    </div>
+</div>
 
-<img src="images/jupiter_by_cassini-huygens.jpg"height="501" width="520" alt="image of jupiter">
-    <h1>Jupiter</h1>
-      <p>Jupiter is the fifth planet from the Sun and the largest
-      planet in the Solar System. It is a gas giant with mass
-      one-thousandth of that of the Sun but is two and a half times
-      the mass of all the other planets in the Solar System combined.
-      Jupiter is classified as a gas giant along with Saturn, Uranus
-      and Neptune. Together, these four planets are sometimes referred
-      to as the Jovian or outer planets.
-       </p>
-<fig>
-<img src="images/jupiter_mad.jpg" height="1730" width="1730" alt="infared image of jupiter">
-<figcaption>Infrared image of Jupiter taken by the ESO's Very Large Telescope.</figcaption>
-</fig>
+  <div class="grid">
+    <div class="unit unit-xs-1 unit-s-1 unit-m-1-3 unit-l-1-3">
+      <figure>
+         <img src="images/jupiter_mad.jpg" alt="infared image of jupiter">
+          <figcaption>
+            Infrared image of Jupiter taken by the ESO's Very Large Telescope.
+          </figcaption>
+      </figure>
+    </div>
 
-<img src="images/440px-hs-2009-23-crop.jpg" height="328" width="440" alt="crater impact on jupiter">
-<p>Hubble image taken on July 23 showing a blemish of about 5,000 miles long left by the 2009 Jupiter impact.</p>
+    <div class="unit unit-xs-1 unit-s-1-2 unit-m-1-3 unit-l-1-3">
+      <figure>
+        <img src="images/440px-hs-2009-23-crop.jpg" alt="crater impact on jupiter">
+        <figcaption>
+          Hubble image taken on July 23 showing a blemish of about 5,000 miles long left by the 2009 Jupiter impact.
+        </figcaption>
+      </figure>
+    </div>
 
+    <div class="unit unit-xs-1 unit-s-1-2 unit-m-1-3 unit-l-1-3">
+      <figure>
+        <img src="images/440px-jupiter_from_voyager_1.jpg" alt="surface of jupiter">
+        <figcaption>
+          False-color detail of Jupiter's atmosphere, imaged by Voyager 1, showing the Great Red Spot and a passing white oval.
+        </figcaption>
+      </figure>
+    </div>
 
-<fig>
-<img src="images/440px-jupiter_from_voyager_1.jpg" height="373" width="440" alt="surface of jupiter">
-<figcaption>False-color detail of Jupiter's atmosphere, imaged by Voyager 1, showing the Great Red Spot and a passing white oval.</figcaption>
-</fig>
+  </div>
 
 </body>
 </html>
