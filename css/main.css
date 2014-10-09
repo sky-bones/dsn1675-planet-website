@@ -69,6 +69,22 @@ header {
     text-decoration: none;
     color: #0074D9;
 }
+
+.nav a, /* Added when the corrections were received */
+.nav a:link,
+.nav a:visited {
+    display: block;
+    color: #0074D9;
+    text-decoration: none;
+}
+
+.nav a:hover, /* Added when the corrections were received */
+.nav a:focus,
+.nav a:active {
+    background-color: #0074D9;
+    color: #fff;
+}
+
 .intro {
     background-color: #e2e2e2;
     text-align: center;
