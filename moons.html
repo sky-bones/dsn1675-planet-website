@@ -10,24 +10,28 @@
 <body>
 
 <header>
-    <h1 class="title1 peta"><a href="index.html">Jupiter</a></h1>
-
-    <nav class="nav giga">
-      <ul>
-        <li><a href="planet.html">Planet</a></li>
-        <li><a href="moons.html">Moons</a></li>
-        <li><a href="exploration.html">Exploration</a></li>
-      </ul>
-    </nav>
-
+  <div class="grid gutter-1-2">
+    <div class="unit unit-xs-1 unit-s-1 unit-m-1-4 unit-l-1-4">
+      <h1 class="title1 peta"><a href="index.html">Jupiter</a></h1>
+    </div>
+        <nav class="nav unit unit-xs-1 unit-s-1 unit-m-3-4 unit-l-3-4">
+            <ul class="nav giga push-none">
+              <li><a class="island-1-2" href="planet.html">Planet</a></li>
+              <li><a class="island-1-2" href="moons.html">Moons</a></li>
+              <li><a class="island-1-2" href="exploration.html">Exploration</a></li>
+            </ul>
+        </nav>
+  </div>
 </header>
 
-<h1>Moons</h1>
+<div class="intro peta pad-top pad-bottom">
+  <h1 class="push-none">Moons</h1>
+</div>
 
 <div class="grid">
-  <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2">
-    <div class="grid">
-      <div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1-2">
+  <div class="island unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2">
+    <div class="  grid">
+      <div class="pad-bottom unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1-2">
         <img src="images/moons/callisto,_moon_of_jupiter,_nasa.jpg" alt="image of callistro">
       </div>
       <div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1-2">
@@ -37,25 +41,24 @@
       </div>
 
         <aside>
-        <dl>
+        <dl class="mega">
           <dt class="milli">Diameter</dt>
-          <dd class="mega"><data value="4820.0"> 4820.0 km </data></dd>
+          <dd><data value="4820.0"> 4820.0 km </data></dd>
         </dl>
-        <dl>
+        <dl class="mega">
           <dt class="milli">Mass</dt>
-          <dd class="mega"><data value="1.08 x10<sup>23</sup>"> 1.08 x10<sup>23</sup> kg </data></dd>
+          <dd><data value="1.08 x10<sup>23</sup>"> 1.08 x10<sup>23</sup> kg </data></dd>
         </dl>
-        <dl>
+        <dl class="mega">
           <dt class="milli">Orbital Period</dt>
-          <dd class="mega"><data value="16.69"> 16.69 (d) </data></dd>
+          <dd><data value="16.69"> 16.69 (d) </data></dd>
         </dl>
       </aside>
   </div>
 
-
-  <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2">
+  <div class="island pad-bottom unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2">
     <div class="grid">
-      <div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1-2">
+      <div class="unit pad-bottom unit-xs-1 unit-s-1 unit-m-1 unit-l-1-2">
         <img src="images/moons/europa-moon.jpg" alt="image of europa">
       </div>
           <div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1-2">
@@ -65,24 +68,41 @@
     </div>
 
   <aside>
-    <dl>
+    <dl class="mega">
       <dt class="milli">Diameter</dt>
-      <dd class="mega"><data value="5262.4"> 5262.4 km </data></dd>
+      <dd><data value="5262.4"> 5262.4 km </data></dd>
     </dl>
-    <dl>
+    <dl class="mega">
       <dt class="mill">Mass</dt>
-      <dd class="mega"><data value="1.08 x10^23"> 1.08 x10<sup>23</sup> kg </data></dd>
+      <dd><data value="1.08 x10^23"> 1.08 x10<sup>23</sup> kg </data></dd>
     </dl>
-    <dl>
+    <dl class="mega">
       <dt class="milli">Orbital Period</dt>
-      <dd class="mega"><data value="16.69"> 16.69 (d) </data></dd>
+      <dd><data value="16.69"> 16.69 (d) </data></dd>
     </dl>
   </aside>
   </div>
+</div>
 
+<footer class="island-1-2 outro">
+  <div class="grid">
+    <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-3">
+      <p class="micro push-none">© 2014 Jupiter Planetary Consortium</p>
+    </div>
+      <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-2-3">
+        <nav class="nav">
+          <ul class="nav mirco push-none">
+            <li><a href="planet.html">Planet</a></li>
+            <li><a href="moons.html">Moons</a></li>
+            <li><a href="exploration.html">Exploration</a></li>
+          </ul>
+        </nav>
+      </div>
+  </div>
+</footer>
 
-
-
+</body>
+</html>
 
 <!--Might add this in if there is extra time
 
@@ -111,6 +131,3 @@
   </div>
 
 </div> -->
-
-</body>
-</html>
