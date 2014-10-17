@@ -33,6 +33,28 @@ html {
 *:after {
     box-sizing: inherit;
 }
+
+@media only screen and (min-width: 60em) {
+    html {
+        font-size: 110%
+    }
+
+@media only screen and (min-width: 90em) {
+    html {
+        font-size: 120%
+    }
+}
+
+@media only screen and (min-width: 120em) {
+    html {
+        font-size: 130%
+    }
+
+}
+
+}
+
+
 body {
     margin: 0;
     padding: 0;
@@ -45,11 +67,7 @@ header {
     background-color: #ccc;
     overflow: hidden;
 }
-.title1 {
-    padding: 0 0 0.6em;
-    margin: 0;
-    text-align: center;
-}
+
 .nav {
     /* keep margins */
     padding: 0;
@@ -83,8 +101,13 @@ header {
     color: #fff;
 }
 
-.intro {
+.header-nav {
+    padding: 0 0 0.6em;
     margin: 0;
+    text-align: center;
+}
+
+.intro {
     background-color: #e2e2e2;
     text-align: center;
 }
@@ -94,15 +117,15 @@ header {
     overflow: hidden;
 }
 
-.factual {
+.dark-grey {
     background-color: #e2e2e2;
 }
 
-.photo-gray {
+.light-grey {
     background-color: #efefef;
 }
 
-@media only screen and (min-width: 20em) {
+@media only screen and (min-width: 25em) {
         .nav {
             text-align: center;
             }
@@ -111,7 +134,7 @@ header {
             }
 }
 
-    @media only screen and (min-width: 40em) {
+@media only screen and (min-width: 38em) {
         .title1 {
             float: left;
         }
@@ -119,3 +142,8 @@ header {
             float: left;
         }
     }
+
+@media only screen and (min-width: 60em) {
+
+    }
+
