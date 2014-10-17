@@ -125,6 +125,15 @@ header {
     background-color: #efefef;
 }
 
+.characteristics {
+    list-style-type: none;
+}
+
+.characteristics dl{
+    overflow: hidden;
+}
+
+
 @media only screen and (min-width: 25em) {
         .nav {
             text-align: center;
@@ -132,18 +141,33 @@ header {
         .nav li {
             display: inline-block;
             }
+        .outro {
+            text-align: center;
+        }
 }
 
 @media only screen and (min-width: 38em) {
-        .title1 {
+        .title {
             float: left;
         }
         .nav {
             float: left;
         }
+        .outro {
+            text-align: left;
+        }
+        .nav-footer {
+            float: right;
+        }
     }
 
 @media only screen and (min-width: 60em) {
-
-    }
+        .characteristics dt{
+            float: left;
+            width: 19em;
+        }
+        .moon-talk {
+            padding-left: 1.5em;
+        }
+}
 
