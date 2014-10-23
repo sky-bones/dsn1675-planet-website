@@ -36,21 +36,21 @@ html {
 
 @media only screen and (min-width: 60em) {
     html {
-        font-size: 110%
+        font-size: 110%;
     }
+}
+
 
 @media only screen and (min-width: 90em) {
     html {
-        font-size: 120%
+        font-size: 120%;
     }
 }
 
 @media only screen and (min-width: 120em) {
     html {
-        font-size: 130%
+        font-size: 130%;
     }
-
-}
 
 }
 
@@ -133,7 +133,6 @@ header {
     overflow: hidden;
 }
 
-
 @media only screen and (min-width: 25em) {
         .nav {
             text-align: center;
@@ -170,4 +169,3 @@ header {
             padding-left: 1.5em;
         }
 }
-
