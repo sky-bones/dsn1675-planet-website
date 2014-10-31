@@ -168,6 +168,58 @@ header {
     overflow: hidden;
 }
 
+
+label {
+    display: block;
+}
+
+input + label {
+    display: inline-block;
+}
+
+.form-title {
+    text-align: center;
+}
+
+.field {
+font-size: 1.25em;
+background-color: e2e2e2;
+padding: 0.2em 0.5em;
+width: 100%;
+}
+
+fieldset {
+text-decoration: none;
+border: none;
+padding: 0;
+
+}
+
+textarea {
+    width: 100%;
+    height: 9em;
+    max-width: 700px;
+}
+
+.radio {
+    white-space: nowrap;
+}
+
+form {
+    max-width: 35em;
+    margin: 0 auto;
+}
+
+button {
+    font-size: 1.5em;
+    padding: 0;
+    text-align: center;
+    margin: 0 auto;
+
+}
+
+
+
 @media only screen and (min-width: 25em) {
         .nav {
             text-align: center;
